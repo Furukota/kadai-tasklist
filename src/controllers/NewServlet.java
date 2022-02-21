@@ -1,6 +1,6 @@
 package controllers;
 
-import java.io.IOException;
+import java.io.IOException ;
 import java.sql.Timestamp;
 
 import javax.persistence.EntityManager;
@@ -38,7 +38,9 @@ public class NewServlet extends HttpServlet {
         // Messageのインスタンスを生成
         Message m = new Message();
 
-        String content = "hello!!!!!!!";
+
+
+        String content = "hello!!!!!!!!";
         m.setContent(content);
 
         Timestamp currentTime = new Timestamp(System.currentTimeMillis());     // 現在の日時を取得
