@@ -3,12 +3,12 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>メッセージボード</title>
+        <title>タスクを管理できるWebアプリケーション</title>
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
-                <h1>メッセージボード アプリケーション</h1>
+                <h1>タスク管理 アプリケーション</h1>
             </div>
             <div id="content">
                 ${param.content}
@@ -18,4 +18,4 @@
             </div>
         </div>
     </body>
-</html>l>
+</html>
